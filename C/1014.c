@@ -7,6 +7,5 @@ int main()
     scanf("%f",&Y);
     avarage = X/Y;
     printf("%.3f km/l\n",avarage);   
-
     return 0;
 }
