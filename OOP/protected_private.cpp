@@ -19,7 +19,6 @@ class Human{
     void setWeight(int w){
         this->weight=w;
     }
-
 };
 class Male : private Human{
 

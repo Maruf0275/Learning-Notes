@@ -5,7 +5,6 @@ class Hero{
     int Health;
 
 };
-
 int main()
 {
     Hero h1;
