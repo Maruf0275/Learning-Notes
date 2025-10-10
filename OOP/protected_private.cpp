@@ -1,0 +1,50 @@
+#include <iostream>
+#include<string.h>
+using namespace std;
+
+class Human{
+
+    protected:
+    int height;
+    public:
+    int weight;
+
+    private:
+    int age;
+
+    public:
+    int getAge(){
+        return this->age;
+    }
+    void setWeight(int w){
+        this->weight=w;
+    }
+
+};
+class Male : private Human{
+
+    public:
+    string color;
+    void sleep(){
+        cout<<"Male sleeping"<<endl;
+    }
+    int getHeight(){
+        return this->height;
+    }
+    void setHeight(int h){
+        this->height=h;
+    }
+
+};
+
+int main()
+{
+    Male *m1=new Male;
+    m1->setHeight(10);
+    cout<<m1->getHeight()<<endl;
+
+    //not accessable
+    //cout<<m1.height<<endl;
+
+    return 0;
+}
