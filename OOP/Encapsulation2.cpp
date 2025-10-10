@@ -12,7 +12,6 @@ class Rectangle{
     void updatePerimeter(){
        perimeter = 2 * (length+width);
     }
-
     public:
     double area;
     double perimeter;

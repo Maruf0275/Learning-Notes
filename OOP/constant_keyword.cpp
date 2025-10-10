@@ -16,7 +16,6 @@ void print() const{
     cout<<"name is: "<<this->name1<<endl;
     cout<<"name is: "<<this->name2<<endl;
 }
-
 };
 
 int main()

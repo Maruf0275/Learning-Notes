@@ -14,7 +14,6 @@ public:
         cout << "Displaying from Base2" << endl;
     }
 };
-
 class Derived : public Base1, public Base2 {
 public:
     void displayDerived() {

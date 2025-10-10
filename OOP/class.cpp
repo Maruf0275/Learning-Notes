@@ -14,7 +14,6 @@ class smallobj
         {
         cout<<"\n data is:"<<somedata;
         }
-
 };
 
 int main()
