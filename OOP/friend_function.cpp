@@ -13,7 +13,6 @@ class Maruf{
 void printArea(Maruf x){
     cout<<"The Area is : "<<x.area<<endl;
 }
-
 int main()
 {
     Maruf m(25);
