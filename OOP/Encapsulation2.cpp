@@ -39,7 +39,6 @@ class Rectangle{
         updatePerimeter();
     }
 
-
 };
 
 int main()
