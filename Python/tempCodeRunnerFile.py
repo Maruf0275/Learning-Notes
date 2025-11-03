@@ -1,0 +1,2 @@
+name.pop()
+print(name)
